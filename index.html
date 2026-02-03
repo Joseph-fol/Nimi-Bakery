@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nimi Bakery </title>
-    <link rel="shortcut icon" href="Nimi logo.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="Nimi logo.png" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <style>
@@ -18,10 +18,10 @@
 
 <body>
     <nav x-data="{ open: false }"
-        class="px-5 pt-5 flex  justify-between md:justify-around items-center relative shadow pb-4  bg-[#6b21a8] text-white">
+        class="px-5 pt-5 flex  justify-between md:justify-around items-center relative shadow pb-4  bg-[#6B21A8] text-white">
 
         <a href="/"><img class="w-10"
-                src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Reddit_Logo_Icon.svg/220px-Reddit_Logo_Icon.svg.png"
+                src="nimi-logo.jpg"
                 alt="Logo" /></a>
 
         <button @click="open = !open" class="md:hidden focus:outline-none text-white">
@@ -73,7 +73,7 @@
                     Order</a>
 
                 <a href="#"
-                    class="bg-[#6b21a8] text-white hover:bg-yellow-300 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Find
+                    class="bg-[#6b21a8] text-white hover:bg-white hover:text-black py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Find
                     a Branch</a>
             </div>
 
